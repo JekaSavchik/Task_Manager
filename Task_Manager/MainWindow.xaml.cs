@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,14 @@ namespace Task_Manager
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonRemoveTask_Click(object sender, RoutedEventArgs e)
+        {
+            //Process proc = Process.GetCurrentProcessByName(ListViewTM.SelectedItem);
+            ////proc.Kill();
+            //TextProc.Text = proc.ProcessName + proc.Id;
+
         }
     }
 }
